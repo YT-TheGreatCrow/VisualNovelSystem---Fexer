@@ -11,5 +11,5 @@ function LoadFirst(){
 function NextLine() {
     index++;
     document.getElementById("text").innerText = lines[index];
-    document.getElementById("char").innerHTML = "<img src='"+imgs[index]+"' alt='cig'>"
+    document.getElementById("char").innerHTML = "<img src='"+imgs[index]+"' alt='Look at the damage! I'm playing pacifist!'>"
 }
