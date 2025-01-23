@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background-color: rgb(66, 66, 66);
+}
+
+.textbox{
+    border-style: solid;
+    border-color: white;
+
+    position: absolute;
+    top: 600px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    overflow-wrap: anywhere;
+}
+
+button{
+    position: absolute;
+    top: 250px;
+    bottom: 5px;
+    left: 5px;
+    right: 1300px;
+}
+
+img{
+    width: 400px;
+}
+
+#char{
+    text-align: center;
+}
